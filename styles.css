@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+.container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+            text-align: center; /* Center-align text inside the box */
+        }
+
+        /* Styles for the text inside the container */
+        .centered-text {
+            color: purple;
+            line-height: 200px; /* Vertical centering using line-height equal to box height */
+        }
